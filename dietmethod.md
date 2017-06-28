@@ -166,3 +166,5 @@
 
 ## 続編
 [体重を30kg減らした社畜エンジニアのダイエット法(運動編)](https://github.com/dhythm/dietmethod/blob/master/dietmethod-exercise.md)
+
+[体重を30kg減らした社畜エンジニアのダイエット法(食事編)](https://github.com/dhythm/dietmethod/blob/master/dietmethod-meal.md)
