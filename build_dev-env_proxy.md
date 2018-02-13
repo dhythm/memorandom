@@ -135,6 +135,6 @@ $ cd python
 ```sh
 $ pip install requests lxml beautifulsoup4
 ```
-selenium を認証プロキシ上で動かす場合は chrome-extension の background を利用します。
-headless-mode は現状 extension に未対応なのであわせ技は出来ませんでした。。無念。  
+selenium を認証プロキシ上で動かす場合は chrome-extension の background を利用します。  
+headless-mode は現状 extension に未対応なのであわせ技は出来ませんでした。。無念。  
 
