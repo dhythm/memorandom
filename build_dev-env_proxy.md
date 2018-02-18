@@ -103,7 +103,15 @@ $ pm2 start node_modules\react-scripts\scripts\start.js --watch
 
 ### フロントエンド開発
 
-加筆予定...  
+ダミーのサーバを用意します。json-serverが便利です。  
+```sh
+$ npm install -g json-server
+```
+db.json ファイルを作成し、下記のコマンドを実行します。  
+```sh
+$ json-server --watch db.json
+$ curl http://localhost:3000/<end-point>
+```
 
 ## バックエンド
 
