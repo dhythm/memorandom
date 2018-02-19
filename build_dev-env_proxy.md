@@ -113,6 +113,12 @@ $ json-server --watch db.json
 $ curl http://localhost:3000/<end-point>
 ```
 
+一覧画面と詳細画面をあわせもつサービスを開発する場合にはルーティングが必要になります。  
+```sh
+$ yarn add react-router-dom
+```
+
+
 ## バックエンド
 
 ### Python のインストール
