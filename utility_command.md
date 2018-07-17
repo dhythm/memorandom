@@ -19,3 +19,9 @@
 :let ln=line('.') | execute ln.",$s/{src}/{dest}/"
 :let ln=line('.') | put! =range(1,100) | g/^$/d | execute ln.",$s/^\\d\\{1}$/0\\0/ge" | execute ln.",$s/^\\d\\{2}$/0\\0/ge"
 ```
+
+## 特定の文字列を含むファイルからディレクトリを作成
+```
+:put! =expand('\[*\]*') | g/^$/d | %s/\[\(.*\)\].*/mkdir "\1"/ge | sort u | w !sh
+```
+
