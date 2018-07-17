@@ -16,6 +16,6 @@
 
 ## 現在の行を変数に格納して活用
 ```
-:let cln=line('.') | execute cln.",$s/{src}/{dest}/"
-:let cln=line('.') | put! =range(1,100) | g/^$/d | execute cln.",$s/^\\d\\{1}$/0\\0/ge" | execute cln.",$s/^\\d\\{2}$/0\\0/ge"
+:let ln=line('.') | execute ln.",$s/{src}/{dest}/"
+:let ln=line('.') | put! =range(1,100) | g/^$/d | execute ln.",$s/^\\d\\{1}$/0\\0/ge" | execute ln.",$s/^\\d\\{2}$/0\\0/ge"
 ```
