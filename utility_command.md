@@ -11,5 +11,5 @@
 ```
 ## 桁数を揃えた連番を作成  
 ```
-:put! =range(1,100) | g/^$/d | [start],[end]/^\d\{1}$/0\0/ge | [start],[end]s/^\d\{2}$/0\0/ge
+:put! =range(1,100) | g/^$/d | [start],[end]s/^\d\{1}$/0\0/ge | [start],[end]s/^\d\{2}$/0\0/ge
 ```
