@@ -25,3 +25,6 @@
 :put! =expand('\[*\]*') | g/^$/d | %s/\[\(.*\)\].*/mkdir "\1"/ge | sort u | w !sh
 ```
 
+# JavaScript
+## Objectのデバッグ
+`console.dir()`を使用することで、Objectのプロパティを列挙可能
