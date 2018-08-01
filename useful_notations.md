@@ -25,6 +25,19 @@
 :put! =expand('\[*\]*') | g/^$/d | %s/\[\(.*\)\].*/mkdir "\1"/ge | sort u | w !sh
 ```
 
+## 環境変数の変更
+下記のコマンドは同じ挙動になる  
+```
+:set columns=80
+:let &columns=80
+```
+
+応用して、既存の設定値の一部を変更
+```
+:let &guifont=substitute(&guifont,"h14","h12","g")
+:let &columns=&columsn * 2
+```
+
 # JavaScript
 ## Objectのデバッグ
 `console.dir()`を使用することで、Objectのプロパティを列挙可能
