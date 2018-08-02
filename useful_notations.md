@@ -47,8 +47,15 @@
 
 下記のコマンドの方がきれいな方法  
 ```
-:normal 0f,l:let c=50-col('.')^M:execute "normal ".c."i "^M 
+:g/{pattern}/ normal 0f,ldw:let c=55-col('.')^M:execute "normal ".c."i "^M 
 ```
+
+最終形  
+```
+:let max = 0 |g/"key"/ normal 0f,l:let c=col('.')^M:if c>max |:let max=c^M
+:g/{pattern}/ normal 0f,l:let c=max-col('.')+1^M:execute "normal ".c."i "^M 
+```
+
 
 # JavaScript
 ## Objectのデバッグ
