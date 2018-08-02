@@ -45,6 +45,10 @@
 :let c=50 | :normal 0f,l20i^I^[:call cursor('.',c)^Mdw 
 ```
 
+下記のコマンドの方がきれいな方法  
+```
+:normal 0f,l:let c=50-col('.')^M:execute "normal ".c."i "^M 
+```
 
 # JavaScript
 ## Objectのデバッグ
