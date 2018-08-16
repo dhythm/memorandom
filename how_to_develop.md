@@ -5,6 +5,11 @@
 2. Create workspace branch
 3. Write code
 4. Run(Test)
+### Test
+```
+jest spec --watch
+```
+
 5. Send Pull Request
 6. Review
 7. Merge to master branch
