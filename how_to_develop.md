@@ -11,6 +11,13 @@ $ git branch
 $ git checkout -b <new_branch>
 ```
 ### Write code
+I recommend to use some powerful development tools for preventing human-mistakes.
+For example, intellisense(snippet), tslint(eslint) and anything else.
+Those tool can help you to prevent to make mistakes and enhance maintainability.
+
+vscode can search code by `cmd + T`, `cmd + F`, `Shift + cmd + F`.
+vscode can go to definition by `cmd + click` or `cmd + opt + click`.
+vscode can find all references by `Shift + F12`.
 
 ### Run(Test)
 
