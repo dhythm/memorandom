@@ -42,15 +42,26 @@ $ git push origin <new_branch>
 ### Deploy to Production
 
 ### The others(Appendix)
+You want to refer the history of git, the below command is useful.
+```
+$ git log
+$ git reflog
+$ git show <commit_id>
+```
+
 You want to cancel some `add` command, the below command will help you.
 This command removes files from the index.
 If you don't attach the option of `--cached`, the files are deleted from workspace.
 ```
 $ git rm --cached <filename>
 ```
+or reset is the below.
+```
+$ git reset HEAD^
+$ git reset --soft HEAD@{1}
+```
 
 `git rebase` is very powerful (and dangerous) command, so I strongly recommend to read [document](https://git-scm.com/docs/).
-
 ```
 $ git rebase --onto <newbase> <upstream> <branch>
 ```
@@ -78,7 +89,8 @@ I'll update this like adding the others and removing unused plugins near the fut
 - .editorconfig
 - .npmrc
 - .prettierrc
-- tsconfig.json
+- tsconfig.json  
+  `typeRoots` -> `["node_modules/@types"]`
 - tslint.json
 
 #### Package.json (devDependencies)
