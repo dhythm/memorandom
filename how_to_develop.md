@@ -85,7 +85,7 @@ I'll update this like adding the others and removing unused plugins near the fut
 - Code Spell Checker
 
 #### Configuration of Project
-- .vscode
+- .vscode (`cmd + ,`)
 - .editorconfig
 - .npmrc
 - .prettierrc
