@@ -56,6 +56,17 @@
 :g/{pattern}/ normal 0f,l:let c=max-col('.')+1^M:execute "normal ".c."i "^M 
 ```
 
+## 編集ファイルのシンタックスを変える
+バッファで作業する際に、ファイルタイプやシンタックスが効かない。  
+そのままだと不便なので、使える一覧を確認して更新する方法。
+```
+# 確認
+:echo glob($VIMRUNTIME . '/ftplugin/*.vim')
+:echo glob($VIMRUNTIME . '/indent/*.vim')
+:echo glob($VIMRUNTIME . '/syntax/*.vim')
+# 設定
+:set filetype=javascript
+```
 
 # JavaScript
 ## Objectのデバッグ
