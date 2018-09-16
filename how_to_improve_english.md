@@ -1,8 +1,10 @@
 # TOEIC380点の人間が英語で仕事をするために実施した学習法
 
+## Table of contents(目次)
 <!-- TOC -->
 
 - [TOEIC380点の人間が英語で仕事をするために実施した学習法](#toeic380点の人間が英語で仕事をするために実施した学習法)
+  - [Table of contents(目次)](#table-of-contents目次)
   - [In the beginning(はじめに)](#in-the-beginningはじめに)
   - [The issue(英語学習における問題点)](#the-issue英語学習における問題点)
     - [時間について](#時間について)
