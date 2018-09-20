@@ -83,7 +83,9 @@ I'll update this like adding the others and removing unused plugins near the fut
 - SQLite
 - Vim
 - Code Spell Checker
-
+- Custom CSS and JS Loader
+    -> user_setting.json: Install 'Fira Code' and Font Ligatures is true
+    -> style.css: Install 'Script12 BT' and describe to style.css
 #### Configuration of Project
 - .vscode (`cmd + ,`)
 - .editorconfig
