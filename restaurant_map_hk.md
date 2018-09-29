@@ -32,6 +32,8 @@
 + [ ] 夜上海
   - Pacific Place, Tsim Sha Tsui にもある
   - 香港島側はリーズナブル、チムサーチョイ側は高い
++ [ ] 龍麵館 Dragon Noodles Academy
++ [ ] Happy Paradise
 + [ ] 三希樓
 + [ ] Mott32
 
