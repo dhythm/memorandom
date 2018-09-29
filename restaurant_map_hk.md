@@ -4,18 +4,29 @@
 
 香港
 --------------------------------------------------
-+ [ ] Golden Valley
-+ [ ] Him Kee Hot Pot
-+ [ ] 三希樓
 + [x] Golden Coast Seafood Restaurant
   - Wan Chai
   - 火鍋
   - めちゃくちゃ安い、予約が広東語じゃないと取れないかも
-+ [ ] Mott32
 + [x] Fook Lam Moon
   - Wan Chai
   - ヤムチャ
   - 価格帯は高め、接待で使われるようなお店
++ [x] The Drunken Pot
+  - Causeway Bay
+  - 火鍋
+  - 夜景が綺麗
++ [x] 米走雞Deluxe
+  - Causeway Bay
+  - 変わったタイプの火鍋
++ [x] 妹記大排檔
+  - Mong Kok
+  - 屋台飯を室内で食べられる
+  - コスパ高い
++ [ ] Golden Valley
++ [ ] Him Kee Hot Pot
++ [ ] 三希樓
++ [ ] Mott32
 + [ ] 夜上海
   - Hong Kong Island(Pacific Place), Tsim Sha Tsui
   - 香港島側はリーズナブル、チムサーチョイ側は高い
@@ -33,3 +44,9 @@
   - Tsim Sha Tsui
 + [ ] Running Chicken Deluxe
   - Causeway Bay
++ [ ] 粵式生香蒸氣海鮮火鍋
+  - Tsim Sha Tsui
++ [x] 點點心 Dim Dim Sum
+  - Wan Chai
++ [ ] 益新美食館 Yixin Restaurant
+  - Wan Chai
