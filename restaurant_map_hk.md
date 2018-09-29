@@ -27,6 +27,10 @@
   - Central
   - ステーキ
   - 小綺麗な感じ、そこまで高くはない。予約が難しいらしい。
++ [x] 點點心 Dim Dim Sum
+  - Wan Chai
+  - 点心
+  - 夜でもやってる。たまに満員。コスパは良さげ。
 + [ ] Golden Valley
 + [ ] Him Kee Hot Pot
 + [ ] 三希樓
@@ -48,7 +52,5 @@
   - Tsim Sha Tsui
 + [ ] 粵式生香蒸氣海鮮火鍋
   - Tsim Sha Tsui
-+ [x] 點點心 Dim Dim Sum
-  - Wan Chai
 + [ ] 益新美食館 Yixin Restaurant
   - Wan Chai
