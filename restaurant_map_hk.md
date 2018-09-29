@@ -46,8 +46,6 @@
   - Tsim Sha Tsui
 + [ ] 天香樓
   - Tsim Sha Tsui
-+ [ ] Running Chicken Deluxe
-  - Causeway Bay
 + [ ] 粵式生香蒸氣海鮮火鍋
   - Tsim Sha Tsui
 + [x] 點點心 Dim Dim Sum
