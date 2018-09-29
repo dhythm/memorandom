@@ -1,56 +1,52 @@
 ==================================================  
- Restaurant Map
+# Restaurant Map
 ==================================================  
 
-香港
+## 香港
 --------------------------------------------------
+### Wan Chai / Causeway Bay
 + [x] Golden Coast Seafood Restaurant
-  - Wan Chai
   - 火鍋
   - めちゃくちゃ安い、予約が広東語じゃないと取れないかも
 + [x] Fook Lam Moon
-  - Wan Chai
   - ヤムチャ
   - 価格帯は高め、接待で使われるようなお店
 + [x] The Drunken Pot
-  - Causeway Bay
   - 火鍋
   - 夜景が綺麗
 + [x] 米走雞Deluxe
-  - Causeway Bay
   - 変わったタイプの火鍋
-+ [x] 妹記大排檔
-  - Mong Kok
-  - 屋台飯を室内で食べられる
-  - コスパ高い
-+ [x] La Vache!
-  - Central
-  - ステーキ
-  - 小綺麗な感じ、そこまで高くはない。予約が難しいらしい。
 + [x] 點點心 Dim Dim Sum
   - Wan Chai
   - 点心
   - 夜でもやってる。たまに満員。コスパは良さげ。
-+ [ ] Golden Valley
++ [ ] 南北楼
+  - 四川料理
++ [ ] 益新美食館 Yixin Restaurant
 + [ ] Him Kee Hot Pot
+
+### Central / Admirality
++ [x] La Vache!
+  - ステーキ
+  - 小綺麗な感じ、そこまで高くはない。予約が難しいらしい。
++ [ ] 夜上海
+  - Pacific Place, Tsim Sha Tsui にもある
+  - 香港島側はリーズナブル、チムサーチョイ側は高い
 + [ ] 三希樓
 + [ ] Mott32
-+ [ ] 夜上海
-  - Hong Kong Island(Pacific Place), Tsim Sha Tsui
-  - 香港島側はリーズナブル、チムサーチョイ側は高い
-+ [ ] 南北楼
-  - Causeway Bay
+
+### Tsim Sha Tsui
 + [ ] 北京楼
-  - Tsim Sha Tsui
 + [ ] aqua
-  - Tsim Sha Tsui
 + [ ] Hutong
-  - Tsim Sha Tsui
 + [ ] Chuk Yuen Seafood Restaurant
-  - Tsim Sha Tsui
 + [ ] 天香樓
-  - Tsim Sha Tsui
 + [ ] 粵式生香蒸氣海鮮火鍋
-  - Tsim Sha Tsui
-+ [ ] 益新美食館 Yixin Restaurant
-  - Wan Chai
+
+### Mong Kok
++ [x] 妹記大排檔
+  - 屋台飯を室内で食べられる
+  - コスパ高い
+
+### Happy Valley
++ [ ] Golden Valley
