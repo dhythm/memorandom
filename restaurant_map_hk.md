@@ -19,11 +19,14 @@
 + [x] 點點心 Dim Dim Sum
   - Wan Chai
   - 点心
-  - 夜でもやってる。たまに満員。コスパは良さげ。
+  - 夜でもやってる。たまに満員。コスパは良さげ
 + [ ] 南北楼
   - 四川料理
 + [ ] 益新美食館 Yixin Restaurant
 + [ ] Him Kee Hot Pot
++ [ ] Samsen 泰麵
++ [ ] Involtini Italian Cuisine
++ [ ] Le Bistro Winebeast
 
 ### Central / Admirality
 + [x] La Vache!
