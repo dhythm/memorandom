@@ -43,7 +43,9 @@
 + [ ] 夜上海
   - 香港島側(Pacific Place)はリーズナブル
   - 尖沙咀側は高い
-+ [ ] 龍麵館 Dragon Noodles Academy
++ [x] 龍麵館 Dragon Noodles Academy
+  - 麺とサイドメニュー
+  - 海老や蟹が食べられるがそんなに高くない
 + [ ] Happy Paradise
 + [ ] 三希樓
 + [ ] Mott32
