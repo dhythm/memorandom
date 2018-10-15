@@ -45,7 +45,13 @@
 + [x] 龍麵館 Dragon Noodles Academy
   - 麺とサイドメニュー
   - 海老や蟹が食べられるがそんなに高くない
++ [x] 5019 PREMIUM FACTORY
+  - SOHO にあるハンバーガー
+  - オーナーが日本人で和牛を使った商品がある
 + [ ] Happy Paradise
++ [ ] Victoria Harbour Restaurant(Sheung Wan)
+  - 広東料理
+  - 予約必須の人気店とのこと
 + [ ] 三希樓
 + [ ] Mott32
 
