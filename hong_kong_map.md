@@ -33,7 +33,7 @@
 + [ ] Le Bistro Winebeast
   - フレンチ
 
-### Central / Admirality
+### Central / Admirality / Sai Ying Pun
 + [x] La Vache!
   - ステーキ
   - 小綺麗な感じ、そこまで高くはない
@@ -47,12 +47,14 @@
 + [x] 5019 PREMIUM FACTORY
   - SOHO にあるハンバーガー
   - オーナーが日本人で和牛を使った商品がある
-+ [ ] Happy Paradise
++ [x] Happy Paradise
+  - オシャレめな中華料理
 + [ ] Victoria Harbour Restaurant(Sheung Wan)
   - 広東料理
   - 予約必須の人気店とのこと
 + [ ] 三希樓
 + [ ] Mott32
++ [ ] Fish School
 
 ### Tsim Sha Tsui
 + [ ] 北京楼
