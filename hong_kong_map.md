@@ -52,6 +52,8 @@
 + [ ] Victoria Harbour Restaurant(Sheung Wan)
   - 広東料理
   - 予約必須の人気店とのこと
++ [ ] 208 Duecento Otto
+  - イタリアン
 + [ ] 三希樓
 + [ ] Mott32
 + [ ] Fish School
