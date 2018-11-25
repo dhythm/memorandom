@@ -57,6 +57,9 @@
   - オーナーが日本人で和牛を使った商品がある
 + [x] Happy Paradise
   - オシャレめな中華料理
++ [x] La Brata
+  - イタリアン
+  - ハムとチーズが美味しい
 + [ ] Victoria Harbour Restaurant(Sheung Wan)
   - 広東料理
   - 予約必須の人気店とのこと
