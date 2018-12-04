@@ -60,9 +60,10 @@
 + [x] La Brata
   - イタリアン
   - ハムとチーズが美味しい
-+ [ ] Victoria Harbour Restaurant(Sheung Wan)
++ [x] Victoria Harbour Restaurant(Sheung Wan)
   - 広東料理
-  - 予約必須の人気店とのこと
+  - 予約必須の人気店
+  - 安いけど美味くて量も多い
 + [ ] 208 Duecento Otto
   - イタリアン
 + [ ] 三希樓
