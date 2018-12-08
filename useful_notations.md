@@ -76,3 +76,9 @@
 # JavaScript
 ## Objectのデバッグ
 `console.dir()`を使用することで、Objectのプロパティを列挙可能
+
+# Shell
+## ムービーを GIF に変換する
+```
+ffmpeg -i rec.mp4 -vf scale=320:-1 -r 10 output.gif
+```
