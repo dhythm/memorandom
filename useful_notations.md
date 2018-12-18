@@ -82,3 +82,10 @@
 ```
 ffmpeg -i rec.mp4 -vf scale=320:-1 -r 10 output.gif
 ```
+
+# VSCode
+## Extension の export
+リストだけならパイプの前のコマンドで取得可能。
+```
+$ code --list-extensions | xargs -L 1 echo code --install-extension
+```
