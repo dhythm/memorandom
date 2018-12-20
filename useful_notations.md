@@ -73,6 +73,12 @@
 :set filetype=javascript
 ```
 
+# Git
+## 特定のブランチから差分ファイルをチェックアウトする
+```
+git checkout BRANCH_NAME -- `git diff BRANCH_NAME --name-only`
+```
+
 # JavaScript
 ## Objectのデバッグ
 `console.dir()`を使用することで、Objectのプロパティを列挙可能
