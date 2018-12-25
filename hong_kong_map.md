@@ -44,6 +44,8 @@
   - 広州料理
 + [ ] Babbo Trattoria
 + [ ] Alto
++ [ ] John Anthony
++ [ ] The Grill Room
 
 ### Central / Admirality / Sai Ying Pun
 + [x] La Vache!
