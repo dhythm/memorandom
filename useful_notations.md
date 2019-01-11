@@ -79,6 +79,17 @@
 git checkout BRANCH_NAME -- `git diff BRANCH_NAME --name-only`
 ```
 
+## remoteで削除したブランチをローカルにも反映する
+remoteとlocalのブランチ差分を取る
+```
+git remote prune --dry-run origin
+```
+
+削除する（未pushのローカルブランチまで削除される可能性があるので要確認※未検証）
+```
+git remote prune origin
+```
+
 # JavaScript
 ## Objectのデバッグ
 `console.dir()`を使用することで、Objectのプロパティを列挙可能
