@@ -73,6 +73,12 @@
 :set filetype=javascript
 ```
 
+# Git
+## 特定のブランチから差分ファイルをチェックアウトする
+```
+git checkout BRANCH_NAME -- `git diff BRANCH_NAME --name-only`
+```
+
 # JavaScript
 ## Objectのデバッグ
 `console.dir()`を使用することで、Objectのプロパティを列挙可能
@@ -82,3 +88,17 @@
 ```
 ffmpeg -i rec.mp4 -vf scale=320:-1 -r 10 output.gif
 ```
+
+# VSCode
+## Extension の export
+リストだけならパイプの前のコマンドで取得可能。
+```
+$ code --list-extensions | xargs -L 1 echo code --install-extension
+```
+
+## Keyboard だけでファイルにアクセス
+- Explorer の toggle ： `cmd + b`
+- ファイルを開く： `cmd + p` で Quick Open を開いてファイル名の入力
+- プレビューモードで開いたファイルを固定化： `cmd + shift + p` (command pallete) で keep するか、`cmd + k + enter`
+- 検索ウィンドウを開く： `cmd + shift + f`
+
