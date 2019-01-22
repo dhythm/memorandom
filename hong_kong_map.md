@@ -16,14 +16,14 @@
   - 夜景が綺麗
 + [x] 米走雞Deluxe
   - 変わったタイプの火鍋
-+ [x] 點點心 Dim Dim Sum
++ [x] 點點心（Dim Dim Sum）
   - 点心
   - たまに満員
   - コスパは良さげ
-+ [x] Samsen 泰麵
++ [x] Samsen（泰麵）
   - タイ料理
   - 予約不可
-  - 混んでるお店のため１時間ほど待つ
+  - 混んでるお店のため1時間ほど待つ
 + [x] Paradise Dynasty
   - 中華
   - カラフルな小籠包がウリ
@@ -31,16 +31,16 @@
   - 持ち帰りのチキンが売り
 + [x] Barg
   - イタリアン
-  - エレベーター(リフト)が混むため、階段で行った方が良い
+  - エレベーター（リフト）が混むため、階段で行った方が良い
 + [ ] 南北楼
   - 四川料理
-+ [ ] 益新美食館 Yixin Restaurant
++ [ ] 益新美食館（Yixin Restaurant）
 + [ ] Him Kee Hot Pot
 + [ ] Involtini Italian Cuisine
   - イタリアン
 + [ ] Le Bistro Winebeast
   - フレンチ
-+ [ ] 鐘厨(Chung's Cuisine)
++ [ ] 鐘厨（Chung's Cuisine）
   - 広州料理
 + [ ] Babbo Trattoria
 + [ ] Alto
@@ -53,36 +53,38 @@
   - 小綺麗な感じ、そこまで高くはない
   - 予約が難しい
 + [ ] 夜上海
-  - 香港島側(Pacific Place)はリーズナブル
+  - 香港島側（Pacific Place）はリーズナブル
   - 尖沙咀側は高い
-+ [x] 龍麵館 Dragon Noodles Academy
++ [x] 龍麵館（Dragon Noodles Academy）
   - 麺とサイドメニュー
   - 海老や蟹が食べられるがそんなに高くない
 + [x] 5019 PREMIUM FACTORY
-  - SOHO にあるハンバーガー
+  - SOHOにあるハンバーガー
   - オーナーが日本人で和牛を使った商品がある
 + [x] Happy Paradise
   - オシャレめな中華料理
 + [x] La Brata
   - イタリアン
-  - ハムと(ブラータ)チーズが美味しい
+  - ハムと（ブラータ）チーズが美味しい
 + [x] Capo Centrale
   - イタリアン
-  - La Brata の姉妹店
+  - La Brataの姉妹店
   - 店員が気さくで料理も美味しい
-+ [x] Victoria Harbour Restaurant(Sheung Wan)
++ [x] Victoria Harbour Restaurant（Sheung Wan）
   - 広東料理
   - 予約必須の人気店
   - 安いけど美味くて量も多い
++ [x] Mott32
+  - 創作広東料理
+  - おしゃれ、価格帯は少し高め
 + [ ] 208 Duecento Otto
   - イタリアン
 + [ ] 三希樓
-+ [ ] Mott32
 + [ ] Fish School
 + [ ] yum cha
 + [ ] 九記牛腩
   - 牛肉麺のお店
-+ [ ] 添好運(Tim Ho Wan)
++ [ ] 添好運（Tim Ho Wan）
   - ミシュランを取得した人気の点心
 
 
@@ -125,7 +127,7 @@
   - 昼からやってる
 + [x] Kennedy town
   - 日曜の昼間に行ってゆっくり食事とビールを楽しむのが吉
-+ [x] 赤柱(スタンレー)
++ [x] 赤柱（スタンレー）
   - 海沿いの小さな街
   - マーケットと、食事する場所くらいしかない
 ### Kowloon
@@ -143,7 +145,7 @@
 + [x] プロムナード
   - 海沿いの道
   - デートスポットとしてはいいかも
-+ [x] 深水埗(シャムスイポー)
++ [x] 深水埗（シャムスイポー）
   - 香港のアキバ
 ### Others
 + [x] 香港ディズニーランド
