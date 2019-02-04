@@ -85,9 +85,14 @@ remoteとlocalのブランチ差分を取る
 git remote prune --dry-run origin
 ```
 
-削除する（未pushのローカルブランチまで削除される可能性があるので要確認※未検証）
+remoteで削除済みのブランチを、ローカルでも整理する
 ```
 git remote prune origin
+```
+
+`git pull`の際に実行する。
+```
+git pull origin master --prune
 ```
 
 # JavaScript
