@@ -46,6 +46,7 @@
 + [ ] Alto
 + [ ] John Anthony
 + [ ] The Grill Room
++ [ ] 杭州酒家
 
 ### Central / Admirality / Sai Ying Pun
 + [x] La Vache!
