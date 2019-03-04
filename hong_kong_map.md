@@ -32,6 +32,14 @@
 + [x] Barg
   - イタリアン
   - エレベーター（リフト）が混むため、階段で行った方が良い
++ [x] Old Beijing Restaurant
+  - 中華
+  - お手頃価格で味は悪くない
+  - 北京ダックも食べられる
++ [x] Han Ah Rum Korean Restaurant
+  - 韓国式焼肉
+  - お値段は少し高め
+  - 肉の味は良い
 + [ ] 南北楼
   - 四川料理
 + [ ] 益新美食館（Yixin Restaurant）
