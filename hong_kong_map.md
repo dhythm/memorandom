@@ -43,7 +43,9 @@
 + [ ] 南北楼
   - 四川料理
 + [ ] 益新美食館（Yixin Restaurant）
-+ [ ] Him Kee Hot Pot
++ [x] Him Kee Hot Pot
+  - 火鍋
+  - そこまで高くないけど、ちゃんとした火鍋
 + [ ] Involtini Italian Cuisine
   - イタリアン
 + [ ] Le Bistro Winebeast
@@ -55,6 +57,10 @@
 + [ ] John Anthony
 + [ ] The Grill Room
 + [ ] 杭州酒家
+
+### Tin Hau / Tai Hang
++ [x] Piccolo
+  - イタリアン
 
 ### Central / Admirality / Sai Ying Pun
 + [x] La Vache!
@@ -93,6 +99,7 @@
 + [ ] yum cha
 + [ ] 九記牛腩
   - 牛肉麺のお店
+  - 昼は常に混雑してる
 + [ ] 添好運（Tim Ho Wan）
   - ミシュランを取得した人気の点心
 
