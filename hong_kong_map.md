@@ -46,6 +46,10 @@
 + [x] Him Kee Hot Pot
   - 火鍋
   - そこまで高くないけど、ちゃんとした火鍋
++ [x] Lo Spazio
+  - イタリアン
+  - カルボナーラが美味しかった
+  - ハッピーアワーはアルコール半額
 + [ ] Involtini Italian Cuisine
   - イタリアン
 + [ ] Le Bistro Winebeast
@@ -91,7 +95,9 @@
   - 安いけど美味くて量も多い
 + [x] Mott32
   - 創作広東料理
-  - おしゃれ、価格帯は少し高め
+  - おしゃれ、価格帯は少し高め（above HK$800）
++ [ ] New Punjab Club
++ [ ] Ho Lee Fook
 + [ ] 208 Duecento Otto
   - イタリアン
 + [ ] 三希樓
