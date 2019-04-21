@@ -50,6 +50,17 @@
   - イタリアン
   - カルボナーラが美味しかった
   - ハッピーアワーはアルコール半額
++ [x] 喜來稀肉（Seorae）
+  - Korean BBQ
+  - 安くてなかなか美味しい
+  - トッポギの味がイケてる
++ [x] 韓雅林 (CHANGED HAND)
+  - Korean BBQ
+  - 上ふたつより高めのお店
+  - 味は美味しい
++ [x] 新麻浦
+  - Korean BBQ
+  - Seoraeよりは少し値段が高いが、肉がうまい。
 + [ ] Involtini Italian Cuisine
   - イタリアン
 + [ ] Le Bistro Winebeast
