@@ -72,9 +72,12 @@
 + [ ] 鐘厨（Chung's Cuisine）
   - 広州料理
 + [ ] Babbo Trattoria
+  - イタリアン
 + [ ] Alto
+  - ステーキ
 + [ ] John Anthony
 + [ ] The Grill Room
+  - ステーキ
 + [ ] 杭州酒家
 
 ### Tin Hau / Tai Hang
