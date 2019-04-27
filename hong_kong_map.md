@@ -77,7 +77,9 @@
   - イタリアン
 + [ ] Alto
   - ステーキ
-+ [ ] John Anthony
++ [x] John Anthony
+  - オシャレ中華
+  - 価格帯は少し高め
 + [ ] The Grill Room
   - ステーキ
 + [ ] 杭州酒家
