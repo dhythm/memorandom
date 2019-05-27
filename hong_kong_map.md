@@ -53,17 +53,22 @@
   - Korean BBQ
   - 安くてなかなか美味しい
   - トッポギの味がイケてる
++ [x] 新麻浦
+  - Korean BBQ
+  - Seoraeよりは少し値段が高いが、肉がうまい。
 + [x] 韓雅林 (CHANGED HAND)
   - Korean BBQ
   - 上ふたつより高めのお店
   - 味は美味しい
-+ [x] 新麻浦
-  - Korean BBQ
-  - Seoraeよりは少し値段が高いが、肉がうまい。
 + [x] Involtini Italian Cuisine
   - イタリアン
   - 味は悪くない
   - 一品一品の量が少ないのでコスパはあまり良くない
++ [x] Veg 6 Vegetarian Restaurant
+  - 肉料理を一切使ってない
+  - 安いがうまい
++ [ ] 百樂潮州酒樓
+  - 中華
 + [ ] 李家
   - 持ち帰りのチキンが売り
 + [ ] 南北楼
@@ -82,7 +87,9 @@
   - 価格帯は少し高め
 + [ ] The Grill Room
   - ステーキ
-+ [ ] 杭州酒家
++ [x] 杭州酒家
+  - 中華
+  - 良い紹興酒が飲める
 
 ### Tin Hau / Tai Hang
 + [x] Piccolo
