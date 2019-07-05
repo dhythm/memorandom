@@ -83,6 +83,15 @@
   - 中華
   - 店はかなり綺麗め、でもそこまで高くない
   - 国際会議場の中にあり、迷いやすい立地
++ [x] Burger room
+  - ハンバーガー屋
+  - 立地が悪いからかそこまで高くないし味もうまい
++ [x] 四姐川菜 Sijie Sichuan Restaurant
+  - 四川料理
+  - 入口がめちゃくちゃわかりづらいので注意
++ [x] 渝川菜館 Yu Chuan Club
+  - 四川料理
+  - 辛い、ちゃんと四川料理
 + [ ] 李家
   - 持ち帰りのチキンが売り
 + [ ] 南北楼
@@ -102,6 +111,9 @@
 ### Tin Hau / Tai Hang
 + [x] Piccolo
   - イタリアン
+
+### Happy Valley
++ [ ] Golden Valley
 
 ### Central / Admirality / Sai Ying Pun
 + [x] La Vache!
@@ -142,7 +154,6 @@
 + [ ] 208 Duecento Otto
   - イタリアン
 + [ ] 三希樓
-+ [ ] Fish School
 + [ ] yum cha
 + [ ] 九記牛腩
   - 牛肉麺のお店
@@ -166,9 +177,6 @@
 + [x] 妹記大排檔
   - 屋台飯を室内で食べられる
   - コスパ高い
-
-### Happy Valley
-+ [ ] Golden Valley
 
 ==================================================  
 # Sightseeing
