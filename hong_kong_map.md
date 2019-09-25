@@ -45,6 +45,7 @@
   - イタリアン
   - カルボナーラが美味しかった
   - ハッピーアワーはアルコール半額
+  - 日曜日はステーキが半額
 + [x] Koh Thai
   - タイ料理
   - 値段も高くなく、味も良い
@@ -125,7 +126,7 @@
 ### Happy Valley
 + [ ] Golden Valley
 
-### Central / Admirality / Sai Ying Pun
+### Central / Admirality / Sai Ying Pun / Kennedy Town
 + [x] La Vache!
   - ステーキ
   - 小綺麗な感じ、そこまで高くはない
@@ -184,12 +185,16 @@
 + [x] 添好運（Tim Ho Wan）
   - ミシュランを取得した人気の点心
   - ローカル感がある
-
++ [x] 11 Westside
+  - Kennedy Town
+  - メキシコ料理
+  - 火曜日はタコスが半額
 
 ### Tsim Sha Tsui
 + [x] 百樂小館
   - 広東料理
   - 店の雰囲気が綺麗なので、日本人のアテンドに使える
++ [ ] 新東記火鍋店
 + [ ] 北京楼
 + [ ] aqua
 + [ ] Hutong
