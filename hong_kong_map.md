@@ -116,7 +116,11 @@
   - ステーキ
 + [ ] The Grill Room
   - ステーキ
-+ [ ] Mr Brown 
++ [x] Mr Brown 
+  - ステーキ
+  - お洒落な雰囲気
+  - 量はそこまで多くない
++ [ ] Feather & Bone
   - ステーキ
 
 ### Tin Hau / Tai Hang
