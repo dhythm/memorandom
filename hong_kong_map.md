@@ -177,6 +177,10 @@
 + [x] Le Souk
   - モロッコ料理・中近東・エジブト・地中海料理
   - 店員が気さく
++ [ ] Bistecca Italian Steak House
+  - イタリアン
++ [ ] DiVino Wine Bar & Restaurant
+  - イタリアン
 + [ ] 夜上海
   - 香港島側（Pacific Place）はリーズナブル
   - 尖沙咀側は高い
