@@ -218,6 +218,8 @@
 + [ ] Chuk Yuen Seafood Restaurant
 + [ ] 天香樓
 + [ ] 粵式生香蒸氣海鮮火鍋
++ [ ] Diletto
+  - イタリアン・ステーキ
 
 ### Mong Kok
 + [x] 妹記大排檔
