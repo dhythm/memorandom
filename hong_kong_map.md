@@ -1,82 +1,40 @@
 ==================================================  
 # Restaurant
 ==================================================  
-## District
+## Hong Kong Island
 ### Wan Chai / Causeway Bay
 + [x] Golden Coast Seafood Restaurant
   - 火鍋
   - めちゃくちゃ安い
   - 広東語じゃないと予約が取れない可能性あり
-+ [x] Fook Lam Moon
-  - ヤムチャ
-  - 価格帯は高め
-  - 接待で使われるようなお店
 + [x] The Drunken Pot
   - 火鍋
-  - 夜景が綺麗
+  - 店から見える夜景が綺麗
 + [x] 米走雞Deluxe
-  - 変わったタイプの火鍋
-+ [x] 點點心（Dim Dim Sum）
-  - 点心
-  - たまに満員
-  - コスパは良さげ
-+ [x] Samsen（泰麵）
-  - タイ料理
-  - 予約不可
-  - 混んでるお店のため1時間ほど待つ
-+ [x] Paradise Dynasty
-  - 中華
-  - カラフルな小籠包がウリ
-+ [x] Barg
-  - イタリアン
-  - エレベーター（リフト）が混むため、階段で行った方が良い
-+ [x] Old Beijing Restaurant
-  - 中華
-  - お手頃価格で味は悪くない
-  - 北京ダックも食べられる
-+ [x] Han Ah Rum Korean Restaurant
-  - 韓国式焼肉
-  - お値段は少し高め
-  - 肉の味は良い
+  - 特殊なタイプの火鍋
 + [x] Him Kee Hot Pot
   - 火鍋
   - そこまで高くないけど、ちゃんとした火鍋
-+ [x] Lo Spazio
-  - イタリアン
-  - カルボナーラが美味しかった
-  - ハッピーアワーはアルコール半額
-  - 日曜日はステーキが半額
-+ [x] Koh Thai
-  - タイ料理
-  - 値段も高くなく、味も良い
-  - 店の雰囲気もおしゃれ
-+ [x] 喜來稀肉（Seorae）
-  - Korean BBQ
-  - 安くてなかなか美味しい
-  - トッポギの味がイケてる
-+ [x] 新麻浦
-  - Korean BBQ
-  - Seoraeよりは少し値段が高いが、肉がうまい。
-+ [x] 韓雅林 (CHANGED HAND)
-  - Korean BBQ
-  - 上ふたつより高めのお店
-  - 味は美味しい
-+ [x] Involtini Italian Cuisine
-  - イタリアン
-  - 味は悪くない
-  - 一品一品の量が少ないのでコスパはあまり良くない
-+ [x] Veg 6 Vegetarian Restaurant
-  - 肉料理を一切使ってない
-  - 安いがうまい
++ [x] Fook Lam Moon（福臨門）
+  - 広東料理・点心
+  - 超高級店
+  - 味は絶品
++ [x] 點點心（Dim Dim Sum）
+  - 点心
+  - たまに満員、コスパは良さげ
++ [x] Paradise Dynasty
+  - 中華
+  - カラフルな小籠包がウリ
++ [x] Old Beijing Restaurant
+  - 中華
+  - お手頃価格で味は悪くない
+  - 北京ダックが食べられる
 + [x] 百樂潮州酒樓
   - 潮州料理
-  - 会食で連れて行ってもらったため、少し高級路線と思われる
-+ [x] 滿江紅小甜甜
-  - 四川料理
-  - 非常にリーズナブル、味も悪くない
+  - 仕事関連の会食で行ってもらったため、値段は不明
 + [x] John Anthony
-  - オシャレ中華
-  - 価格帯は少し高め
+  - 中華
+  - 価格帯は少し高めのおしゃれ中華
 + [x] 杭州酒家
   - 中華
   - 良い紹興酒が飲める
@@ -84,18 +42,63 @@
   - 中華
   - 店はかなり綺麗め、でもそこまで高くない
   - 国際会議場の中にあり、迷いやすい立地
-+ [x] Burger room
-  - ハンバーガー屋
-  - 立地が悪いからかそこまで高くないし味もうまい
-+ [x] 四姐川菜 Sijie Sichuan Restaurant
++ [x] 滿江紅小甜甜
   - 四川料理
-  - 入口がめちゃくちゃわかりづらいので注意
-+ [x] 渝川菜館 Yu Chuan Club
+  - 非常にリーズナブル、味も悪くない
++ [x] 四姐川菜Sijie Sichuan Restaurant
+  - 四川料理
+  - 入口がめちゃくちゃわかりづらい（湾仔店）
+  - エレベーターが激混みする（銅鑼湾店）
++ [x] 渝川菜館Yu Chuan Club
   - 四川料理
   - 辛い、ちゃんと四川料理
 + [x] Qi House of Sichuan
   - 四川料理
   - ミシュラン取得レストラン
++ [x] Barg
+  - イタリアン
+  - エレベーターが混むため、階段で行った方が良い
++ [x] Lo Spazio
+  - イタリアン
+  - カルボナーラが美味しかった
+  - ハッピーアワーはアルコール半額、日曜日はステーキが半額
++ [x] Involtini Italian Cuisine
+  - イタリアン
+  - 味は悪くない
+  - 一品一品の量が少ないのでコスパはあまり良くない
++ [x] Mr Brown 
+  - ステーキ
+  - 女性ウケしそうなお洒落な雰囲気
++ [x] Feather & Bone
+  - ステーキ
+  - ちゃんと肉を食える。ボリューミー
++ [x] Grill 28
+  - ステーキ
+  - 約1kgのステーキが圧巻。
++ [x] Burger room
+  - ハンバーガー
+  - そこまで高くなく、味もうまい
++ [x] 韓雅林Han Ah Rum Korean Restaurant
+  - 韓国式焼肉
+  - お値段は少し高め
+  - 肉の味は良い
++ [x] 喜來稀肉（Seorae）
+  - 韓国式焼肉
+  - 安くてなかなか美味しい
+  - トッポギがイケてる
++ [x] 新麻浦
+  - 韓国式焼肉
+  - 安くて肉のレベルも高い。個人的にはコスパ最強。
++ [x] Samsen（泰麵）
+  - タイ料理
+  - 予約不可、混んでるお店のため1時間ほど待つ
++ [x] Koh Thai
+  - タイ料理
+  - 値段も高くなく、味も良い
+  - 店の雰囲気もおしゃれ
++ [x] Veg 6 Vegetarian Restaurant
+  - ベジタリアンレストラン
+  - 安いがうまい
 + [x] LE PETIT SAIGON
   - ベトナム料理
 + [ ] 越華會海鮮館
@@ -116,21 +119,19 @@
   - ステーキ
 + [ ] The Grill Room
   - ステーキ
-+ [x] Mr Brown 
-  - ステーキ
-  - お洒落な雰囲気
-  - 量はそこまで多くない
-+ [ ] Feather & Bone
-  - ステーキ
 
 ### Tin Hau / Tai Hang
 + [x] Piccolo
   - イタリアン
+  - ピザ・パスタのBUY1GET1をやってる日がある
++ [x] BOND
+  - イタリアン
 
 ### Happy Valley
 + [ ] Golden Valley
+  - 中華/Dim Sum
 
-### Central / Admirality / Sai Ying Pun / Kennedy Town
+### Central / Admiralty / Sheung Wan
 + [x] La Vache!
   - ステーキ
   - 小綺麗な感じ、そこまで高くはない
@@ -150,7 +151,7 @@
   - イタリアン
   - La Brataの姉妹店
   - 店員が気さくで料理も美味しい
-+ [x] Victoria Harbour Restaurant（Sheung Wan）
++ [x] Victoria Harbour Restaurant
   - 広東料理
   - 予約必須の人気店
   - 安いけど美味くて量も多い
@@ -177,11 +178,15 @@
 + [x] Le Souk
   - モロッコ料理・中近東・エジブト・地中海料理
   - 店員が気さく
++ [x] 添好運（Tim Ho Wan）
+  - ミシュランを取得した人気の点心
+  - ローカル感がある
 + [ ] Bistecca Italian Steak House
   - イタリアン
 + [ ] DiVino Wine Bar & Restaurant
   - イタリアン
 + [ ] 夜上海
+  - 中華
   - 香港島側（Pacific Place）はリーズナブル
   - 尖沙咀側は高い
 + [ ] New Punjab Club
@@ -190,17 +195,18 @@
   - イタリアン
 + [ ] 三希樓
 + [ ] yum cha
+  - インスタ映え点心
+  - Causeway bayにもお店がある
 + [ ] 九記牛腩
   - 牛肉麺のお店
   - 昼は常に混雑してる
-+ [x] 添好運（Tim Ho Wan）
-  - ミシュランを取得した人気の点心
-  - ローカル感がある
+
+### Sai Ying Pun / Kennedy Town
 + [x] 11 Westside
-  - Kennedy Town
   - メキシコ料理
   - 火曜日はタコスが半額
 
+## Kowloon peninsula
 ### Tsim Sha Tsui
 + [x] 百樂小館
   - 広東料理
