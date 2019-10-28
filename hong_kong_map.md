@@ -136,14 +136,6 @@
   - ステーキ
   - 小綺麗な感じ、そこまで高くはない
   - 予約が難しい
-+ [x] 龍麵館（Dragon Noodles Academy）
-  - 麺とサイドメニュー
-  - 海老や蟹が食べられるがそんなに高くない
-+ [x] 5019 PREMIUM FACTORY
-  - SOHOにあるハンバーガー
-  - オーナーが日本人で和牛を使った商品がある
-+ [x] Happy Paradise
-  - オシャレめな中華料理
 + [x] La Brata
   - イタリアン
   - ハムと（ブラータ）チーズが美味しい
@@ -151,6 +143,33 @@
   - イタリアン
   - La Brataの姉妹店
   - 店員が気さくで料理も美味しい
++ [x] Posto Pubblico
+  - イタリアン
+  - 昼はランチセット、夜はアラカルト
+  - ボリュームもあり、コスパは悪くない
++ [x] Fini's
+  - イタリアン
+  - 昼はビュッフェ形式のコスパが良い
++ [x] Maison Libanaise
+  - レバノン料理
+  - 味は美味しい、ビールの種類は少ない
+  - メニューがフランス語
++ [x] Chullschick
+  - ペルー料理
++ [x] Braza Churrascaria Brazilian Steakhouse
+  - ブラジル料理（ステーキ）
+  - 昼はHK$138でビュッフェ、+HK$50で肉をサーブしてくれる
++ [x] MEATS
+  - アルゼンチン料理（ステーキ）
+  - 値段もそれほど高くなく、店の雰囲気も良い
++ [x] Le Souk
+  - モロッコ料理・中近東・エジブト・地中海料理
+  - 店員が気さく
++ [x] 龍麵館（Dragon Noodles Academy）
+  - 麺とサイドメニュー
+  - 海老や蟹が食べられるがそんなに高くない
++ [x] Happy Paradise
+  - オシャレ中華
 + [x] Victoria Harbour Restaurant
   - 広東料理
   - 予約必須の人気店
@@ -158,29 +177,12 @@
 + [x] Mott32
   - 創作広東料理
   - おしゃれ、価格帯は少し高め（above HK$800）
-+ [x] Maison Libanaise
-  - レバノン料理
-  - 味は美味しい、ビールの種類は少ない
-  - メニューがフランス語
-+ [x] Posto Pubblico
-  - イタリアン
-  - 昼はランチセット、夜はアラカルト
-  - ボリュームもあり、コスパは悪くない
-+ [x] Braza Churrascaria Brazilian Steakhouse
-  - ブラジル料理（ステーキ）
-  - 昼はHK$138でビュッフェ、+HK$50で肉をサーブしてくれる
-+ [x] MEATS
-  - アルゼンチン料理（ステーキ）
-  - 値段もそれほど高くなく、店の雰囲気も良い
-+ [x] Fini's
-  - イタリアン
-  - 昼はビュッフェ形式のコスパが良い
-+ [x] Le Souk
-  - モロッコ料理・中近東・エジブト・地中海料理
-  - 店員が気さく
 + [x] 添好運（Tim Ho Wan）
   - ミシュランを取得した人気の点心
   - ローカル感がある
++ [x] 5019 PREMIUM FACTORY
+  - 和牛ハンバーガー
+  - オーナーが日本人で和牛を使った商品がある
 + [ ] Bistecca Italian Steak House
   - イタリアン
 + [ ] DiVino Wine Bar & Restaurant
