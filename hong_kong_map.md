@@ -192,9 +192,11 @@
   - 香港島側（Pacific Place）はリーズナブル
   - 尖沙咀側は高い
 + [ ] New Punjab Club
-+ [ ] Ho Lee Fook
++ [ ] Ho Lee Fook 口利福
 + [ ] 208 Duecento Otto
   - イタリアン
++ [ ] The Italian Club
++ [ ] Chôm Chôm
 + [ ] 三希樓
 + [ ] yum cha
   - インスタ映え点心
