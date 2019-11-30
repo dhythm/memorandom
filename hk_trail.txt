@@ -1,0 +1,47 @@
+The Hong Kong Trail
+Sec. 1	 7.0km	2.0 h	Lv.2 (DONE)
+Sec. 2	 4.5km	1.5 h	Lv.2 (DONE)
+Sec. 3	 6.5km	1.75h	Lv.2 (DONE)
+Sec. 4	 7.5km	2.0 h	Lv.1 (DONE)
+Sec. 5	 4.0km	1.5 h	Lv.2 (DONE)
+Sec. 6	 4.5km	1.5 h	Lv.2 (DONE)
+Sec. 7	 7.5km	2.0 h	Lv.1 (DONE)
+Sec. 8	 8.5km	2.75h	Lv.3 (DONE)
+
+Wilson Trail
+Sec. 1	 4.8km	2.0 h	Lv.3 (DONE)
+Sec. 2	 6.6km	2.5 h	Lv.2 (DONE)
+Sec. 3	 9.3km	4.0 h	Lv.2
+Sec. 4	 8.0km	3.0 h	Lv.3
+Sec. 5	 7.4km	2.5 h	Lv.1
+Sec. 6	 5.3km	2.0 h	Lv.2
+Sec. 7	10.2km	4.0 h	Lv.1
+Sec. 8	 9.0km	4.0 h	Lv.3
+Sec. 9	10.6km	4.5 h	Lv.3
+Sec.10	 6.8km	2.5 h	Lv.2
+
+The maclehose Trail
+Sec. 1	10.6km	3.0 h	Lv.1
+Sec. 2	13.5km	5.0 h	Lv.2
+Sec. 3	10.2km	4.0 h	Lv.3
+Sec. 4	12.7km	5.0 h	Lv.3
+Sec. 5	10.6km	3.0 h	Lv.2
+Sec. 6	 4.6km	1.5 h	Lv.1
+Sec. 7	 6.2km	2.5 h	Lv.2
+Sec. 8	 9.7km	4.0 h	Lv.2
+Sec. 9	 6.3km	2.5 h	Lv.1
+Sec.10	15.6km	5.0 h	Lv.1
+
+Lantau Trail
+Sec. 1	 2.5km	0.75h	Lv.1
+Sec. 2	 6.5km	2.75h	Lv.3
+Sec. 3	 4.5km	2.25h	Lv.3
+Sec. 4	 4.0km	1.25h	Lv.2
+Sec. 5	 7.5km	2.75h	Lv.2
+Sec. 6	 2.5km	1.0 h	Lv.2
+Sec. 7	10.5km	3.0 h	Lv.3
+Sec. 8	 5.5km	1.5 h	Lv.2
+Sec. 9	 6.5km	2.0 h	Lv.1
+Sec.10	 6.5km	2.0 h	Lv.1
+Sec.11	 4.5km	1.25h	Lv.1
+Sec.12	 9.0km	3.0 h	Lv.2
