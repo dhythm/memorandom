@@ -165,6 +165,9 @@
 + [x] Le Souk
   - モロッコ料理・中近東・エジブト・地中海料理
   - 店員が気さく
++ [x] Chôm Chôm
+  - ベトナム料理
+  - 予約不可のいつも並んでいるお店
 + [x] 龍麵館（Dragon Noodles Academy）
   - 麺とサイドメニュー
   - 海老や蟹が食べられるがそんなに高くない
@@ -189,14 +192,11 @@
   - イタリアン
 + [ ] 夜上海
   - 中華
-  - 香港島側（Pacific Place）はリーズナブル
-  - 尖沙咀側は高い
 + [ ] New Punjab Club
 + [ ] Ho Lee Fook 口利福
 + [ ] 208 Duecento Otto
   - イタリアン
 + [ ] The Italian Club
-+ [ ] Chôm Chôm
 + [ ] 三希樓
 + [ ] yum cha
   - インスタ映え点心
