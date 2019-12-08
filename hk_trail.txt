@@ -12,7 +12,7 @@ Wilson Trail
 Sec. 1	 4.8km	2.0 h	Lv.3 (DONE)
 Sec. 2	 6.6km	2.5 h	Lv.2 (DONE)
 Sec. 3	 9.3km	4.0 h	Lv.2 (DONE)
-Sec. 4	 8.0km	3.0 h	Lv.3
+Sec. 4	 8.0km	3.0 h	Lv.3 (DONE)
 Sec. 5	 7.4km	2.5 h	Lv.1
 Sec. 6	 5.3km	2.0 h	Lv.2
 Sec. 7	10.2km	4.0 h	Lv.1
