@@ -21,8 +21,8 @@ Sec. 9	10.6km	4.5 h	Lv.3 => Lv.4 (DONE)
 Sec.10	 6.8km	2.5 h	Lv.2 => Lv.4
 
 The maclehose Trail
-Sec. 1	10.6km	3.0 h	Lv.1 => Lv.3
-Sec. 2	13.5km	5.0 h	Lv.2 => Lv.4
+Sec. 1	10.6km	3.0 h	Lv.1 => Lv.3 (DONE)
+Sec. 2	13.5km	5.0 h	Lv.2 => Lv.4 (DONE)
 Sec. 3	10.2km	4.0 h	Lv.3 => Lv.4
 Sec. 4	12.7km	5.0 h	Lv.3 => Lv.4
 Sec. 5	10.6km	3.0 h	Lv.2 => Lv.3
