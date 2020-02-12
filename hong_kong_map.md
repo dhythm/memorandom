@@ -29,9 +29,13 @@
 + [x] Paradise Dynasty
   - 中華
   - カラフルな小籠包がウリ
-+ [x] Old Beijing Restaurant
++ [x] 老北京（Old Beijing Restaurant）
   - 中華
   - お手頃価格で味は悪くない
+  - 北京ダックが食べられる
++ [x] 北京老家（Beijing Home）
+  - 中華
+  - お店が広い
   - 北京ダックが食べられる
 + [x] 百樂潮州酒樓
   - 潮州料理
