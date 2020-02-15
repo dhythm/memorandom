@@ -28,7 +28,7 @@ Sec. 4	12.7km	5.0 h	Lv.3 => Lv.4
 Sec. 5	10.6km	3.0 h	Lv.2 => Lv.3
 Sec. 6	 4.6km	1.5 h	Lv.1 => Lv.2
 Sec. 7	 6.2km	2.5 h	Lv.2 => Lv.3
-Sec. 8	 9.7km	4.0 h	Lv.2 => Lv.4
+Sec. 8	 9.7km	4.0 h	Lv.2 => Lv.4 (DONE)
 Sec. 9	 6.3km	2.5 h	Lv.1 => Lv.2
 Sec.10	15.6km	5.0 h	Lv.1 => Lv.4
 
