@@ -74,7 +74,19 @@
   - イタリアン
   - 味は悪くない
   - 一品一品の量が少ないのでコスパはあまり良くない
-+ [x] Mr Brown 
++ [x] Pirata
+  - イタリアン
+  - https://www.openrice.com/en/hongkong/r-pirata-wan-chai-italian-r188880
+  - 窓からの景色が良い
++ [x] Involtini Italian Cuisine
+  - イタリアン
+  - 味は悪くない
+  - 一品一品の量が少ないのでコスパはあまり良くない
+
+  - イタリアン
+  - 味は悪くない
+  - 一品一品の量が少ないのでコスパはあまり良くない
++ [x] Mr Brown
   - ステーキ
   - 女性ウケしそうなお洒落な雰囲気
 + [x] Feather & Bone
