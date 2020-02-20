@@ -63,6 +63,11 @@
 + [x] Qi House of Sichuan
   - 四川料理
   - ミシュラン取得レストラン
++ [x] 南北楼
+  - 四川料理
+  - 辛さは控えめで日本人好みの味
+  - 店員が少し日本語を話せる
+  - エビチリが美味しい
 + [x] Barg
   - イタリアン
   - エレベーターが混むため、階段で行った方が良い
@@ -123,8 +128,6 @@
 + [ ] 李家
   - https://www.openrice.com/en/hongkong/r-chicken-hof-soju-wan-chai-korean-korean-fried-chicken-r178122
   - 持ち帰りのチキンが売り
-+ [ ] 南北楼
-  - 四川料理
 + [ ] 益新美食館（Yixin Restaurant）
 + [ ] Le Bistro Winebeast
   - フレンチ
