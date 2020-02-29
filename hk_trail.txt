@@ -30,7 +30,7 @@ Sec. 6	 4.6km	1.5 h	Lv.1 => Lv.2
 Sec. 7	 6.2km	2.5 h	Lv.2 => Lv.3
 Sec. 8	 9.7km	4.0 h	Lv.2 => Lv.4 (DONE)
 Sec. 9	 6.3km	2.5 h	Lv.1 => Lv.2
-Sec.10	15.6km	5.0 h	Lv.1 => Lv.4
+Sec.10	15.6km	5.0 h	Lv.1 => Lv.4 (DONE)
 
 Lantau Trail
 Sec. 1	 2.5km	0.75h	Lv.1 => Lv.1 (DONE)
