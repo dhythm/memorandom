@@ -30,10 +30,12 @@
   - 中華
   - カラフルな小籠包がウリ
 + [x] 老北京（Old Beijing Restaurant）
+  - https://www.openrice.com/en/hongkong/r-old-beijing-causeway-bay-beijing-r47265
   - 中華
   - お手頃価格で味は悪くない
   - 北京ダックが食べられる
 + [x] 北京老家（Beijing Home）
+  - https://www.openrice.com/en/hongkong/r-beijing-home-wan-chai-beijing-soup-r557731
   - 中華
   - お店が広い
   - 北京ダックが食べられる
@@ -44,6 +46,7 @@
   - 中華
   - 価格帯は少し高めのおしゃれ中華
 + [x] 杭州酒家
+  - https://www.openrice.com/en/hongkong/r-hong-zhou-restaurant-wan-chai-jiang-zhe-r13683
   - 中華
   - 良い紹興酒が飲める
 + [x] Golden Bauhinia Restaurant
@@ -64,6 +67,7 @@
   - 四川料理
   - ミシュラン取得レストラン
 + [x] 南北楼
+  - https://www.openrice.com/en/hongkong/r-the-red-pepper-restaurant-causeway-bay-jingchuanhu-noodles-rice-noodles-r3690
   - 四川料理
   - 辛さは控えめで日本人好みの味
   - 店員が少し日本語を話せる
@@ -198,6 +202,7 @@
   - 予約必須の人気店
   - 安いけど美味くて量も多い
 + [x] Mott32
+  - https://www.openrice.com/en/hongkong/r-mott-32-central-sichuan-fine-dining-r166406
   - 創作広東料理
   - おしゃれ、価格帯は少し高め（above HK$800）
 + [x] 添好運（Tim Ho Wan）
@@ -211,6 +216,7 @@
 + [ ] DiVino Wine Bar & Restaurant
   - イタリアン
 + [ ] 夜上海
+  - https://www.openrice.com/en/hongkong/r-ye-shanghai-admiralty-shanghai-r4130
   - 中華
 + [ ] New Punjab Club
 + [ ] Ho Lee Fook 口利福
