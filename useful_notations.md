@@ -111,6 +111,11 @@ git pull origin master --prune
 ffmpeg -i rec.mp4 -vf scale=320:-1 -r 10 output.gif
 ```
 
+## 無劣化で動画を切り出す
+```
+ffmpeg -ss 00:00:30 -i input.mp4 -t 00:01:00 -vcodec copy -acodec copy -async 1 output.mp4
+```
+
 # VS Code
 ## Extensionのexport
 リストだけならパイプの前のコマンドで取得可能。
