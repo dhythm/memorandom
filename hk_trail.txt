@@ -23,7 +23,7 @@ Sec.10	 6.8km	2.5 h	Lv.2 => Lv.4 (DONE)
 The MacLehose Trail
 Sec. 1	10.6km	3.0 h	Lv.1 => Lv.3 (DONE)
 Sec. 2	13.5km	5.0 h	Lv.2 => Lv.4 (DONE)
-Sec. 3	10.2km	4.0 h	Lv.3 => Lv.4
+Sec. 3	10.2km	4.0 h	Lv.3 => Lv.4 (DONE)
 Sec. 4	12.7km	5.0 h	Lv.3 => Lv.4 (DONE)
 Sec. 5	10.6km	3.0 h	Lv.2 => Lv.3
 Sec. 6	 4.6km	1.5 h	Lv.1 => Lv.2
@@ -45,3 +45,7 @@ Sec. 9	 6.5km	2.0 h	Lv.1 => Lv.2
 Sec.10	 6.5km	2.0 h	Lv.1 => Lv.2
 Sec.11	 4.5km	1.25h	Lv.1 => Lv.2
 Sec.12	 9.0km	3.0 h	Lv.2 => Lv.3
+
+Plover Cove Reservoir Country Trail
+        15.5km  7.0 h Lv.3 => Lv.5
+
