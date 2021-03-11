@@ -1,6 +1,18 @@
 # memorandom
 
-## Command Line
+## Git
+
+#### check the differences and status with a certain branch
+```
+git diff [TARGET_BRANCH] --name-status
+```
+
+#### checkout the differences from a certain branch
+```
+git checkout [TARGET_BRANCH] -- `git diff --diff-filter=[FILTER] [TARGET_BRANCH] --name-only`
+```
+
+## Convert data in command line
 
 #### encrypt with RSA
 ```
