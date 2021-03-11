@@ -1,5 +1,9 @@
 # memorandom
 
+## Vim
+
+#### TBD
+
 ## Git
 
 #### check the differences and status with a certain branch
