@@ -2,7 +2,16 @@
 
 ## Vim
 
-#### TBD
+#### highlight the pattern during the typing
+```
+:set is hls[hlsearch]
+```
+
+#### extract Amazon's link
+```
+:%s/\(amazon.co.jp\/\).*\/\(dp\/[0-9A-Za-z]\+\/\).*/\1\2/ge 
+```
+
 
 ## Git
 
