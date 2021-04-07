@@ -34,6 +34,8 @@ git branch -v -r --merged origin/[TARGET_BRANCH]
 if you want to delete branches that are already merged into the master/main branch, you can delete all of them via the following command.
 ```
 git branch -r --merged origin/master | grep -v -e master | xargs -I BRANCHES git branch -d BRANCHES
+git branch -r --merged origin/master | grep -v -e master | xargs -I {} git branch -d {} # same as the above one
+git branch -r --merged origin/master | grep -v -e master | xargs -i git branch -d {}    # same as the above one
 ```
 
 ## Convert data in command line
