@@ -25,6 +25,15 @@ git diff [TARGET_BRANCH] --name-status
 git checkout [TARGET_BRANCH] -- `git diff --diff-filter=[FILTER] [TARGET_BRANCH] --name-only`
 ```
 
+#### show the list of branches that are deleted on remote but exist on local
+```
+git remote prune --dry-run origin
+```
+and delete them via the following command.
+```
+git remote prune origin
+```
+
 #### show remote branches that are merged/unmerged
 ```
 git branch -v -r --no-merged
