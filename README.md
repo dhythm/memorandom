@@ -25,6 +25,17 @@ git diff [TARGET_BRANCH] --name-status
 git checkout [TARGET_BRANCH] -- `git diff --diff-filter=[FILTER] [TARGET_BRANCH] --name-only`
 ```
 
+#### show remote branches that are merged/unmerged
+```
+git branch -v -r --no-merged
+git branch -v -r --merged origin/[TARGET_BRANCH]
+```
+
+if you want to delete branches that are already merged into the master/main branch.
+```
+git branch -r --merged origin/master | grep -v -e master | xargs -I BRANCHES git branch -d BRANCHES
+```
+
 ## Convert data in command line
 
 #### encrypt with RSA
