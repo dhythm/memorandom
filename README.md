@@ -12,6 +12,13 @@
 :%s/\(amazon.co.jp\/\).*\/\(dp\/[0-9A-Za-z]\+\/\).*/\1\2/ge 
 ```
 
+### rename all files sequentially
+```
+:put! =expand('*') | g/^$/d | %s/\(.*\)\.\(.*\)/\='mv ' . submatch(0) . ' ' . printf('%03d', line('.')) . '.' . submatch(2)/ge | noh
+:w !sh    # unix
+:w !cmd   # windows
+```
+
 
 ## Git
 
