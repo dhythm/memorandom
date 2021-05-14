@@ -19,6 +19,11 @@
 :w !cmd   # windows
 ```
 
+```
+# ! execute shell command(s) in vim and r! put the result on vim
+:r! ls -rla | tr -s ' ' | cut -d ' ' -f 9 | grep -v -e '^\.*$'
+:g/^$/d | %s/\(.*\)\.\(.*\)/\='mv ' . submatch(0) . ' ' . printf('%03d', line('.')) . '.' . submatch(2)/ge | noh
+```
 
 ## Git
 
