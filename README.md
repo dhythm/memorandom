@@ -13,12 +13,14 @@
 ```
 
 #### rename all files sequentially
+##### sort in order of the filenames
 ```
 :put! =expand('*') | g/^$/d | %s/\(.*\)\.\(.*\)/\='mv ' . submatch(0) . ' ' . printf('%03d', line('.')) . '.' . submatch(2)/ge | noh
 :w !sh    # unix
 :w !cmd   # windows
 ```
 
+##### sort in order of the timeline
 ```
 # ! execute shell command(s) in vim and r! put the result on vim
 :r! ls -rla | tr -s ' ' | cut -d ' ' -f 9 | grep -v -e '^\.*$'
