@@ -79,8 +79,17 @@ echo -n "password1" | openssl rsautl -encrypt -pubin -oaep -inkey public.pem | b
 
 #### convert a movie file to a gif file
 ```
-ffmpeg -i input.mp4 -vf scale=800:-1 -r 16.667 output.fig
+ffmpeg -i input.mp4 -vf scale=800:-1 -r 16.667 output.gif
 ```
+##### Optimizing
+```
+ffmpeg -i input.mp4 -vf "fps=12,scale=640:-1:flags=lanczos,palettegen=stats_mode=diff" -y palette.png
+ffmpeg -i input.mp4 -i palette.png -lavfi "fps=12,scale=640:-1:flags=lanczos,paletteuse=dither=bayer:bayer_scale=5:diff_mode=rectangle" -y output.gif
+```
+See: https://cassidy.codes/blog/2017/04/25/ffmpeg-frames-to-gif-optimization/
+See: https://superuser.com/questions/556029/how-do-i-convert-a-video-to-gif-using-ffmpeg-with-reasonable-quality
+See: https://life.craftz.dog/entry/generating-a-beautiful-gif-from-a-video-with-ffmpeg
+
 #### trim a specific scene from a movie without any deteriorations
 ```
 ffmpeg --ss [START_TIME e.g. 00:00:30] -i input.mp4 -t [DURATION e.g. 00:01:00 -vcodec copy -acodec copy -async 1 output.mp4
