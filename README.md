@@ -87,7 +87,9 @@ filters="fps=12,scale=640:-1:flags=lanczos"
 ffmpeg -i input.mp4 -vf "$filters,palettegen=stats_mode=diff" -y palette.png
 ffmpeg -i input.mp4 -i palette.png -lavfi "$filters,paletteuse=dither=bayer:bayer_scale=5:diff_mode=rectangle" -y output.gif
 ```
-See: [Ref1](https://cassidy.codes/blog/2017/04/25/ffmpeg-frames-to-gif-optimization/), [Ref2](https://superuser.com/questions/556029/how-do-i-convert-a-video-to-gif-using-ffmpeg-with-reasonable-quality), [Ref3](https://life.craftz.dog/entry/generating-a-beautiful-gif-from-a-video-with-ffmpeg)
+According to [the doc](), The `-lavfi` option is equivalent to -filter_complex.
+
+See: [Reference1](https://cassidy.codes/blog/2017/04/25/ffmpeg-frames-to-gif-optimization/), [Reference2](https://superuser.com/questions/556029/how-do-i-convert-a-video-to-gif-using-ffmpeg-with-reasonable-quality), [Reference3](https://life.craftz.dog/entry/generating-a-beautiful-gif-from-a-video-with-ffmpeg)
 
 #### trim a specific scene from a movie without any deteriorations
 ```
