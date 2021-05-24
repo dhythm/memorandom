@@ -86,6 +86,9 @@ ffmpeg -i input.mp4 -vf scale=800:-1 -r 16.667 output.gif
 filters="fps=12,scale=640:-1:flags=lanczos"
 ffmpeg -i input.mp4 -vf "$filters,palettegen=stats_mode=diff" -y palette.png
 ffmpeg -i input.mp4 -i palette.png -lavfi "$filters,paletteuse=dither=bayer:bayer_scale=5:diff_mode=rectangle" -y output.gif
+
+# one liner
+i="input.mp4"; p="palette.png"; o="output.gif"; f="fps=12,scale=1080:-1:flags=lanczos" && ffmpeg -i $i -vf "$f,palettegen=stats_mode=diff" -y $p && ffmpeg -i $i -i $p -lavfi "$filters,paletteuse=dither=bayer:bayer_scale=5:diff_mode=rectangle" -y $o
 ```
 According to [the doc](https://ffmpeg.org/ffmpeg.html), The `-lavfi` option is equivalent to -filter_complex.
 
