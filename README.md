@@ -89,6 +89,9 @@ ffmpeg -i input.mp4 -i palette.png -lavfi "$filters,paletteuse=dither=bayer:baye
 
 # one liner
 i="input.mp4"; p="palette.png"; o="output.gif"; f="fps=12,scale=1080:-1:flags=lanczos" && ffmpeg -i $i -vf "$f,palettegen=stats_mode=diff" -y $p && ffmpeg -i $i -i $p -lavfi "$filters,paletteuse=dither=bayer:bayer_scale=5:diff_mode=rectangle" -y $o
+
+# n times speed (1.5x, 2.0x, 4.0x)
+i="input.mp4"; p="palette.png"; o="output.gif"; r=4.0; f="fps=12,scale=640:-1:flags=lanczos,setpts=PTS/$r"; ffmpeg -i $i -vf "$f,palettegen=stats_mode=diff" -af atempo=$r -y $p && ffmpeg -i $i -i $p -lavfi "$f,setpts=PTS/$r,paletteuse=dither=bayer:bayer_scale=5:diff_mode=rectangle" -af atempo=$r -y $o
 ```
 According to [the doc](https://ffmpeg.org/ffmpeg.html), The `-lavfi` option is equivalent to -filter_complex.
 
