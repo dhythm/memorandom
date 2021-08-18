@@ -1,5 +1,11 @@
 # memorandom
 
+## Shell
+#### remove tarminal color (will cause garbled text) on Mac
+```
+COMMAND | sed -E "s/"$'\E'"\[([0-9]{1,2}(;[0-9]{1,2})*)?m//g" > FILE_NAME
+```
+
 ## Vim
 
 #### highlight the pattern during the typing
