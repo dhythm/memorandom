@@ -8,9 +8,9 @@ COMMAND | sed -E "s/"$'\E'"\[([0-9]{1,2}(;[0-9]{1,2})*)?m//g" > FILE_NAME
 
 #### rename files sequentially
 ```
-\ls | sort -n | awk '{ ext=$0; gsub(/^.*\./, "", ext); printf "mv %s %03d.%s\n", $0, NR, ext }'
+\ls | sort -n | awk '{ ext=$0; gsub(/^.*\./, "", ext); printf "mv %s %03d.%s\n", $0, NR, ext }' | sh
 # \ls -tr | awk ... is also useful.
-ls | sort -n | awk -F'.' '{ printf "mv %s %03d.%s\n", $0, NR, $2}'
+ls | sort -n | awk -F'.' '{ printf "mv %s %03d.%s\n", $0, NR, $2}' | sh
 ```
 
 ## Vim
