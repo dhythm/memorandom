@@ -8,7 +8,7 @@ COMMAND | sed -E "s/"$'\E'"\[([0-9]{1,2}(;[0-9]{1,2})*)?m//g" > FILE_NAME
 
 #### rename files sequentially
 ```
-\ls | sort -n | awk '{ printf "mv %s %03d.%s\n", $0, NR, "png" }' | sh 
+\ls | sort -n | awk '{ ext=$0; gsub(/^.*\./, "", ext); printf "mv %s %03d.%s\n", $0, NR, ext }'
 # \ls -tr | awk ... is also useful.
 ```
 
