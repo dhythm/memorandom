@@ -2,12 +2,12 @@
 
 ## Shell
 #### remove tarminal color (will cause garbled text) on Mac
-```
+```sh
 COMMAND | sed -E "s/"$'\E'"\[([0-9]{1,2}(;[0-9]{1,2})*)?m//g" > FILE_NAME
 ```
 
 #### rename files sequentially
-```
+```sh
 \ls | sort -n | awk '{ ext=$0; gsub(/^.*\./, "", ext); printf "mv %s %03d.%s\n", $0, NR, ext }' | sh
 # \ls -tr | awk ... is also useful.
 \ls | sort -n | awk -F'.' '{ printf "mv %s %03d.%s\n", $0, NR, $2}' | sh
@@ -43,59 +43,64 @@ COMMAND | sed -E "s/"$'\E'"\[([0-9]{1,2}(;[0-9]{1,2})*)?m//g" > FILE_NAME
 ## Git
 
 #### check the differences and status with a certain branch
-```
+```sh
 git diff [TARGET_BRANCH] --name-status
 ```
 
 #### checkout the differences from a certain branch
-```
+```sh
 git checkout [TARGET_BRANCH] -- `git diff --diff-filter=[FILTER] [TARGET_BRANCH] --name-only`
 ```
 
 #### show the list of branches that are deleted on remote but exist on local
-```
+```sh
 git remote prune --dry-run origin
 ```
 and delete them via the following command.
-```
+```sh
 git remote prune origin
 ```
 
 #### show remote branches that are merged/unmerged
-```
+```sh
 git branch -v -r --no-merged
 git branch -v -r --merged origin/[TARGET_BRANCH]
 ```
 
 if you want to delete branches that are already merged into the master/main branch, you can delete all of them via the following command.
-```
+```sh
 git branch --merged | grep -v -e master | xargs -I{} git branch -d {}
 git branch -r --merged origin/master | grep -v -e master  | sed -e 's/origin\///g' | xargs -I{} git branch -d {}
+```
+
+#### get all local branched that exist on remote
+```sh
+for branch in `git branch`; do git branch -r | sed -e 's;origin/;;g' | grep -ow "$branch" | uniq ; done
 ```
 
 ## Convert data in command line
 
 #### encrypt with RSA
-```
+```sh
 openssl rsautl -encrypt -pubin -oaep -inkey public.pem -in passwd.txt -out passwd.encrypted
 ```
 #### encrypt with base64
-```
+```sh
 base64 passwd.encrypted
 ```
 #### encrypt with RSA and base64 in one-liner
-```
+```sh
 echo -n "password1" | openssl rsautl -encrypt -pubin -oaep -inkey public.pem | base64
 ```
 
 ## ffmpeg
 
 #### convert a movie file to a gif file
-```
+```sh
 ffmpeg -i input.mp4 -vf scale=800:-1 -r 16.667 output.gif
 ```
 ##### Optimizing
-```
+```sh
 filters="fps=12,scale=640:-1:flags=lanczos"
 ffmpeg -i input.mp4 -vf "$filters,palettegen=stats_mode=diff" -y palette.png
 ffmpeg -i input.mp4 -i palette.png -lavfi "$filters,paletteuse=dither=bayer:bayer_scale=5:diff_mode=rectangle" -y output.gif
@@ -111,7 +116,7 @@ According to [the doc](https://ffmpeg.org/ffmpeg.html), The `-lavfi` option is e
 See: [Reference1](https://cassidy.codes/blog/2017/04/25/ffmpeg-frames-to-gif-optimization/), [Reference2](https://superuser.com/questions/556029/how-do-i-convert-a-video-to-gif-using-ffmpeg-with-reasonable-quality), [Reference3](https://life.craftz.dog/entry/generating-a-beautiful-gif-from-a-video-with-ffmpeg)
 
 #### trim a specific scene from a movie without any deteriorations
-```
+```sh
 ffmpeg --ss [START_TIME e.g. 00:00:30] -i input.mp4 -t [DURATION e.g. 00:01:00 -vcodec copy -acodec copy -async 1 output.mp4
 ```
 
@@ -119,10 +124,10 @@ ffmpeg --ss [START_TIME e.g. 00:00:30] -i input.mp4 -t [DURATION e.g. 00:01:00 -
 ## VSCode
 
 #### export installed extensions
-```
+```sh
 code --list-extensions | xargs -L 1 echo code --install-extension
 ```
 #### import extensions
-```
+```sh
 code --install-extension [EXTENSION_ID]
 ```
