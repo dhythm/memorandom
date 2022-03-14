@@ -73,10 +73,16 @@ git branch --merged | grep -v -e master | xargs -I{} git branch -d {}
 git branch -r --merged origin/master | grep -v -e master  | sed -e 's/origin\///g' | xargs -I{} git branch -d {}
 ```
 
-#### get all local branched that exist on remote
+#### get/delete all local branched that exist on remote
 ```sh
 for branch in `git branch`; do git branch -r | sed -e 's;origin/;;g' | grep -ow "$branch" | uniq ; done
 ```
+
+```sh
+diff --changed-group-format='%<' --unchanged-group-format='' <(git branch | sed -e 's/^[ \*]*//') <(for branch in `git branch`; do git branch -r | sed -e 's;origin/;;g' | grep -ow "$branch" | uniq ; done) | xargs -I{} git branch -d {}
+```
+`<(...)` is called process substitution. It converts the output of a command into a file-like object that diff can read from.<br>
+(\`...\`) is called command substitution.)
 
 ## Convert data in command line
 
