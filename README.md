@@ -80,6 +80,8 @@ for branch in `git branch`; do git branch -r | sed -e 's;origin/;;g' | grep -ow 
 
 ```sh
 diff --changed-group-format='%<' --unchanged-group-format='' <(git branch | sed -e 's/^[ \*]*//') <(for branch in `git branch`; do git branch -r | sed -e 's;origin/;;g' | grep -ow "$branch" | uniq ; done) | xargs -I{} git branch -d {}
+# or
+diff --changed-group-format='%<' --unchanged-group-format='' <(git branch | sed -e 's/^[ \*]*//') <(git branch -r | sed -e 's;^.*origin/;;g') | xargs -I{} git branch -d {}
 ```
 `<(...)` is called process substitution. It converts the output of a command into a file-like object that diff can read from.<br>
 (`` `...` `` is called command substitution.)
