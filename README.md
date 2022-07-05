@@ -26,6 +26,11 @@ COMMAND | sed -E "s/"$'\E'"\[([0-9]{1,2}(;[0-9]{1,2})*)?m//g" > FILE_NAME
 :%s/\(amazon.co.jp\/\).*\/\(dp\/[0-9A-Za-z]\+\/\).*/\1\2/ge 
 ```
 
+#### remove color codes
+```
+:%s/\%x1b\[[0-9;]*m//g
+```
+
 #### rename all files sequentially
 ##### sort in order of the filenames
 ```
