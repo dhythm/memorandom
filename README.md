@@ -92,6 +92,21 @@ diff --changed-group-format='%<' --unchanged-group-format='' <(git branch | sed 
 `<(...)` is called process substitution. It converts the output of a command into a file-like object that diff can read from.<br>
 (`` `...` `` is called command substitution.)
 
+## Docker
+#### manage postgres
+```sh
+docker run —rm -d —net localnetwork_app_net -p 5432:5432 —name postgres -v ~/postgresql_data:/var/lib/postgresql/data -e POSTGRES_PASSWORD=password postgres:13.3
+
+docker exec -i postgres psql -U postgres -c "CREATE USER dbuser WITH PASSWORD 'password'
+docker exec -i postgres psql -U postgres -c "CREATE DATABASE postgresdb"
+
+```
+
+#### dump a remote postgres DB to the local (Need to open port)
+```sh
+docker run postgres:13.8 pg_dump --data-only postgres://[USERNAME]:[PASSWORD]@[IP_ADDRESS]:[PORT]/[DB_NAME] > dump.sql
+```
+
 ## Convert data in command line
 
 #### encrypt with RSA
