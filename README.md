@@ -102,9 +102,10 @@ docker exec -i postgres psql -U postgres -c "CREATE DATABASE postgresdb"
 
 ```
 
-#### dump a remote postgres DB to the local (Need to open port)
+#### copy a remote postgres DB to the local (Need to open port)
 ```sh
 docker run postgres:13.8 pg_dump --data-only postgres://[USERNAME]:[PASSWORD]@[IP_ADDRESS]:[PORT]/[DB_NAME] > dump.sql
+cat ./dump.sql | docker exec -i [CONTAINER_ID] psql -U [USERNAME] [DB_NAME]
 ```
 
 ## Convert data in command line
