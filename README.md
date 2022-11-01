@@ -14,6 +14,11 @@ COMMAND | sed -E "s/"$'\E'"\[([0-9]{1,2}(;[0-9]{1,2})*)?m//g" > FILE_NAME
 \ls | sort -n | awk -F'.' '{ printf "mv %s %03d.%s\n", $0, NR+20, $2}' | sh
 ```
 
+#### search TEXT recursively in DIR
+```sh
+grep -rl TEXT DIR
+```
+
 ## Vim
 
 #### highlight the pattern during the typing
