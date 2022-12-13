@@ -114,6 +114,7 @@ cat ./dump.sql | docker exec -i [CONTAINER_ID] psql -U [USERNAME] [DB_NAME]
 
 # one liner
 docker run postgres:13.8 pg_dump --data-only postgres://[USERNAME]:[PASSWORD]@[IP_ADDRESS]:[PORT]/[DB_NAME] | docker exec -i [CONTAINER_ID] psql -U [USERNAME] [DB_NAME]
+docker run postgres:13.8 pg_dump --data-only postgres://[USERNAME]:[PASSWORD]@[IP_ADDRESS]:[PORT]/[DB_NAME] | docker exec -i $(docker ps -q -f 'NAME=xxx') psql -U [USERNAME] [DB_NAME]
 ```
 
 ## Convert data in command line
