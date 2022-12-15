@@ -22,6 +22,7 @@ grep -rl TEXT DIR
 #### check directory size
 ```sh
 du -sh ~/Library/*
+du -h -d 1 -c -x ~/Library | sort -h
 ```
 
 ## Vim
