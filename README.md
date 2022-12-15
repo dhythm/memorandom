@@ -19,6 +19,11 @@ COMMAND | sed -E "s/"$'\E'"\[([0-9]{1,2}(;[0-9]{1,2})*)?m//g" > FILE_NAME
 grep -rl TEXT DIR
 ```
 
+#### check directory size
+```sh
+du -sh ~/Library/*
+```
+
 ## Vim
 
 #### highlight the pattern during the typing
