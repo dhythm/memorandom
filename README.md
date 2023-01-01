@@ -103,6 +103,8 @@ diff --changed-group-format='%<' --unchanged-group-format='' <(git branch | sed 
 `<(...)` is called process substitution. It converts the output of a command into a file-like object that diff can read from.<br>
 (`` `...` `` is called command substitution.)
 
+Unfotunatelly, Apple diff doesn't have `--unchanged-group-format` option.
+https://github.com/NixOS/nix/issues/7286
 ```sh
 git fetch -p && diff --changed-group-format='%<' --unchanged-group-format='' <(git branch | sed -e 's/^[ \*]*//') <(git branch -r | sed -e 's;^.*origin/;;g') | xargs -I{} git branch -D {}
 ```
