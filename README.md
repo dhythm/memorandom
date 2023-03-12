@@ -114,6 +114,7 @@ git fetch -p && diff --changed-group-format='%<' --unchanged-group-format='' <(g
 ```sh
 docker run —rm -d —net localnetwork_app_net -p 5432:5432 —name postgres -v ~/postgresql_data:/var/lib/postgresql/data -e POSTGRES_PASSWORD=password postgres:13.3
 
+docker exec -it $(docker ps -q -f 'NAME=xxx') psql -U [USERNAME] [DB_NAME]
 docker exec -i postgres psql -U postgres -c "CREATE USER dbuser WITH PASSWORD 'password'
 docker exec -i postgres psql -U postgres -c "CREATE DATABASE postgresdb"
 
