@@ -110,6 +110,9 @@ git fetch -p && diff --changed-group-format='%<' --unchanged-group-format='' <(g
 ```
 
 ## Docker
+
+### postgres
+
 #### manage postgres
 ```sh
 docker run —rm -d —net localnetwork_app_net -p 5432:5432 —name postgres -v ~/postgresql_data:/var/lib/postgresql/data -e POSTGRES_PASSWORD=password postgres:13.3
@@ -128,6 +131,12 @@ cat ./dump.sql | docker exec -i [CONTAINER_ID] psql -U [USERNAME] [DB_NAME]
 # one liner
 docker run postgres:13.8 pg_dump --data-only postgres://[USERNAME]:[PASSWORD]@[IP_ADDRESS]:[PORT]/[DB_NAME] | docker exec -i [CONTAINER_ID] psql -U [USERNAME] [DB_NAME]
 docker run postgres:13.8 pg_dump --data-only postgres://[USERNAME]:[PASSWORD]@[IP_ADDRESS]:[PORT]/[DB_NAME] | docker exec -i $(docker ps -q -f 'NAME=xxx') psql -U [USERNAME] [DB_NAME]
+```
+
+### MySQL
+
+```sh
+docker exec -it [CONTAINER_NAME] mysql -u [USER_NAME] -p[PASSWORD] -N -e "SELECT TABLE_CATALOG, TABLE_SCHEMA,  TABLE_NAME, COLUMN_NAME, COLUMN_DEFAULT, IS_NULLABLE, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH, NUMERIC_PRECISION, NUMERIC_SCALE, DATETIME_PRECISION, CHARACTER_SET_NAME, COLLATION_NAME, COLUMN_TYPE, COLUMN_KEY FROM information_schema.columns where table_schema = '[SCHEMA_NAME]';
 ```
 
 ## Convert data in command line
