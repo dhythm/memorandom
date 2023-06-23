@@ -6,6 +6,11 @@
 COMMAND | sed -E "s/"$'\E'"\[([0-9]{1,2}(;[0-9]{1,2})*)?m//g" > FILE_NAME
 ```
 
+#### remove files
+```sh
+find . -name "*.py" -path "*/migrations/*" ! -name "__init__.py" | xargs rm -f
+```
+
 #### rename files sequentially
 ```sh
 \ls | sort -n | awk '{ ext=$0; gsub(/^.*\./, "", ext); printf "mv %s %03d.%s\n", $0, NR, ext }' | sh
