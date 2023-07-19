@@ -67,6 +67,11 @@ du -h -d 1 -c -x ~/Library | sort -h
 :g/^$/d | %s/\(.*\)\.\(.*\)/\='mv ' . submatch(0) . ' ' . printf('%03d', line('.')) . '.' . submatch(2)/ge | noh
 ```
 
+#### insert UUID
+```
+:r !uuidgen|sed 's/.*/    "pk": "&",/'|tr "[A-Z]" "[a-z]"
+```
+
 ## Git
 
 #### check the differences and status with a certain branch
