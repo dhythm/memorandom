@@ -121,7 +121,8 @@ diff --changed-group-format='%<' --unchanged-group-format='' <(git branch | sed 
 Unfotunatelly, Apple diff doesn't have `--unchanged-group-format` option.
 https://github.com/NixOS/nix/issues/7286
 ```sh
-git fetch -p && diff --changed-group-format='%<' --unchanged-group-format='' <(git branch | sed -e 's/^[ \*]*//') <(git branch -r | sed -e 's;^.*origin/;;g') | xargs -I{} git branch -D {}
+# git fetch -p && diff --changed-group-format='%<' --unchanged-group-format='' <(git branch | sed -e 's/^[ \*]*//') <(git branch -r | sed -e 's;^.*origin/;;g') | xargs -I{} git branch -D {}
+git fetch -p && (diff --changed-group-format='%<' --unchanged-group-format='' <(git branch | sed -e 's/^[ \*]*//') <(git branch -r | sed -e 's;^.*origin/;;g')) | xargs -I{} git branch -D {}
 ```
 
 ## Docker
