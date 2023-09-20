@@ -38,22 +38,26 @@ du -h -d 1 -c -x ~/Library | sort -h
 ## Vim
 
 #### highlight the pattern during the typing
+
 ```
 :set is hls[hlsearch]
 ```
 
 #### extract Amazon's link
+
 ```
 :%s/\(amazon.co.jp\/\).*\/\(dp\/[0-9A-Za-z]\+\/\).*/\1\2/ge 
 ```
 
 #### remove color codes
+
 ```
 :%s/\%x1b\[[0-9;]*m//g
 ```
 
 #### rename all files sequentially
 ##### sort in order of the filenames
+
 ```
 :put! =expand('*') | g/^$/d | %s/\(.*\)\.\(.*\)/\='mv ' . submatch(0) . ' ' . printf('%03d', line('.')) . '.' . submatch(2)/ge | noh
 :w !sh    # unix
@@ -61,6 +65,7 @@ du -h -d 1 -c -x ~/Library | sort -h
 ```
 
 ##### sort in order of the timeline
+
 ```
 # ! execute shell command(s) in vim and r! put the result on vim
 :r! ls -rlat | tr -s ' ' | cut -d ' ' -f 9 | grep -v -e '^\.*$'
@@ -68,8 +73,15 @@ du -h -d 1 -c -x ~/Library | sort -h
 ```
 
 #### insert UUID
+
+insert UUID by ex command.
 ```
 :r !uuidgen|sed 's/.*/    "pk": "&",/'|tr "[A-Z]" "[a-z]"
+```
+
+insert UUID to `:substitute`
+```
+:%s/\(.*\)\t\(.*\)/\='{"pk":"' . system("uuidgen | tr -d '\n' | tr '[A-Z]' '[a-z]'") . '","fields":{"code":"' . submatch(1) . '","name":"' . submatch(2) . '"}},'
 ```
 
 ## Git
