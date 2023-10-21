@@ -4,6 +4,7 @@
 #### remove tarminal color (will cause garbled text) on Mac
 ```sh
 COMMAND | sed -E "s/"$'\E'"\[([0-9]{1,2}(;[0-9]{1,2})*)?m//g" > FILE_NAME
+COMMAND | sed -r 's/\x1b\[[0-9;]*m//g' | tee FILE_NAME 
 ```
 
 #### remove files
