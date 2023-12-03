@@ -38,6 +38,12 @@ du -h -d 1 -c -x ~/Library | sort -h
 
 ## Vim
 
+#### create a new directory of a new file if not exist
+
+```
+:!mkdir -p %:h
+```
+
 #### highlight the pattern during the typing
 
 ```
