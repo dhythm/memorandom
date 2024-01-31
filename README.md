@@ -91,6 +91,14 @@ insert UUID to `:substitute`
 :%s/\(.*\)\t\(.*\)/\='{"pk":"' . system("uuidgen | tr -d '\n' | tr '[A-Z]' '[a-z]'") . '","fields":{"code":"' . submatch(1) . '","name":"' . submatch(2) . '"}},'
 ```
 
+#### replace case
+
+convert snake_case to camelCase
+```
+'%s/_\([a-z]\)/\u\1/ge
+'<,'>s/_\([a-z]\)/\u\1/ge
+```
+
 ## Git
 
 #### check the differences and status with a certain branch
