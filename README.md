@@ -176,6 +176,14 @@ docker run postgres:13.8 pg_dump --data-only postgres://[USERNAME]:[PASSWORD]@[I
 docker run postgres:13.8 pg_dump --data-only postgres://[USERNAME]:[PASSWORD]@[IP_ADDRESS]:[PORT]/[DB_NAME] | docker exec -i $(docker ps -q -f 'NAME=xxx') psql -U [USERNAME] [DB_NAME]
 ```
 
+
+#### restore from dump file
+
+```sh
+# docker compose
+docker compose exec -T [CONTAINER_NAME] pg_restore -cO -d [DB_NAME] -U [USER_NAME] -w < [DUMP_FILE]
+```
+
 ### MySQL
 
 ```sh
