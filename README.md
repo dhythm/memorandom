@@ -184,6 +184,13 @@ docker run postgres:13.8 pg_dump --data-only postgres://[USERNAME]:[PASSWORD]@[I
 docker compose exec -T [CONTAINER_NAME] pg_restore -cO -d [DB_NAME] -U [USER_NAME] -w < [DUMP_FILE]
 ```
 
+#### run SQL on docker container by cli
+
+```sh
+docker compose exec -T [CONTAINER_NAME] psql -P pager=off -U [USER_NAME] -d [DB_NAME] -A -F, -w < ~/local/sample.sql | sed '$d'
+docker compose exec -T [CONTAINER_NAME] psql -P pager=off -U [USER_NAME] -d [DB_NAME] -A -F, -w < ~/local/sample.sql | sed '$d' > sample.csv
+```
+
 ### MySQL
 
 ```sh
