@@ -230,6 +230,9 @@ i="input.mp4";r=1.0;f="fps=12,scale=640:-1:flags=lanczos,setpts=PTS/$r";p=palett
 
 # n times speed (1.5x, 2.0x, 4.0x)
 i="input.mp4"; p="palette.png"; o="output.gif"; r=4.0; f="fps=12,scale=640:-1:flags=lanczos,setpts=PTS/$r"; ffmpeg -i $i -vf "$f,palettegen=stats_mode=diff" -af atempo=$r -y $p && ffmpeg -i $i -i $p -lavfi "$f,setpts=PTS/$r,paletteuse=dither=bayer:bayer_scale=5:diff_mode=rectangle" -af atempo=$r -y $o
+
+# acceralate a movie
+i=Screen\ Recording\ 2024-09-04\ at\ 10.56.11.mov; r=1.50; o="output.mp4"; ffmpeg -i "$i" -r 16 -filter:v "setpts=0.8*PTS,scale=1280:-2,minterpolate='mi_mode=mci:mc_mode=aobmc:vsbmc=1:fps=120'" -filter:a "atempo=$r" -y "$o"
 ```
 According to [the doc](https://ffmpeg.org/ffmpeg.html), The `-lavfi` option is equivalent to -filter_complex.
 
