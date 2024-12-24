@@ -152,6 +152,19 @@ https://github.com/NixOS/nix/issues/7286
 git fetch -p && (diff --changed-group-format='%<' --unchanged-group-format='' <(git branch | sed -e 's/^[ \*]*//') <(git branch -r | sed -e 's;^.*origin/;;g')) | xargs -I{} git branch -D {}
 ```
 
+## NPM
+
+```sh
+npm outdated
+
+npx npm-check-updates
+npx npm-check-updates -u
+npx npm-check-updates -u --target minor && npm install
+
+npm audit
+npm audit fix --force
+```
+
 ## Docker
 
 ### postgres
