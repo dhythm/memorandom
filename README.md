@@ -231,6 +231,7 @@ echo -n "password1" | openssl rsautl -encrypt -pubin -oaep -inkey public.pem | b
 ```sh
 ffmpeg -i input.mp4 -vf scale=800:-1 -r 16.667 output.gif
 ```
+
 ##### Optimizing
 ```sh
 filters="fps=12,scale=640:-1:flags=lanczos"
@@ -256,6 +257,10 @@ See: [Reference1](https://cassidy.codes/blog/2017/04/25/ffmpeg-frames-to-gif-opt
 ffmpeg --ss [START_TIME e.g. 00:00:30] -i input.mp4 -t [DURATION e.g. 00:01:00 -vcodec copy -acodec copy -async 1 output.mp4
 ```
 
+#### convert voice memo to wav file (to handle in Google Speech-to-Text Chirp 3)
+```sh
+sh -c 'ffmpeg -i "$1" -acodec pcm_s16le -ac 1 -ar 16000 "${1%.m4a}.wav"' _ file.m4a
+```
 
 ## VSCode
 
