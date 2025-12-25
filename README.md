@@ -247,6 +247,8 @@ i="input.mp4"; p="palette.png"; o="output.gif"; r=4.0; f="fps=12,scale=640:-1:fl
 
 # acceralate a movie
 i=Screen\ Recording\ 2024-09-04\ at\ 10.56.11.mov; r=1.50; o="output.mp4"; ffmpeg -i "$i" -r 16 -filter:v "setpts=PTS/$r,scale=1280:-2,minterpolate='mi_mode=mci:mc_mode=aobmc:vsbmc=1:fps=120'" -filter:a "atempo=$r" -y "$o"
+# or
+ffmpeg -itsscale 0.6666667 -i "$(\ls -t Screen\ Recording\ 2025-*.mov | head -n 1)" -vf "scale='min(1280,iw)':-2" output.mp4
 ```
 According to [the doc](https://ffmpeg.org/ffmpeg.html), The `-lavfi` option is equivalent to -filter_complex.
 
