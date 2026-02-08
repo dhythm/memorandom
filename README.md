@@ -15,6 +15,7 @@ find . -name "*.py" -path "*/migrations/*" ! -name "__init__.py" | xargs rm -f
 #### concurrently mkdir and touch
 ```sh
 sh -c 'mkdir -p "$(dirname "$0")" && touch "$0"' src/aaa/bbb/ccc.ts
+sh -c 'mkdir -p "$(dirname "$1")" && touch "$1"' _ src/aaa/bbb/ccc.ts
 ```
 
 #### rename files sequentially
