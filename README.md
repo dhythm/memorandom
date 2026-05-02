@@ -265,6 +265,14 @@ ffmpeg --ss [START_TIME e.g. 00:00:30] -i input.mp4 -t [DURATION e.g. 00:01:00 -
 sh -c 'ffmpeg -i "$1" -acodec pcm_s16le -ac 1 -ar 16000 "${1%.m4a}.wav"' _ file.m4a
 ```
 
+#### Screen Recording and crop url from the browsers
+
+Use `Option` when starting a recording. Otherwise, the drop shadow will appear in the video.
+
+```sh
+ffmpeg -y -itsscale 1.0 -i "$(\ls -t Screen\ Recording\ 2026-*.mov | head -n 1)" -vf "crop=in_w:in_h-240:0:240,scale='min(1280,iw)':-2" output.mp4
+```
+
 ## VSCode
 
 #### export installed extensions
